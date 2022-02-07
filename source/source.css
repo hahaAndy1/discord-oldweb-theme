@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+:root {
+--Chat-Font-Used: 'DotGothic16', sans-serif;
+--Chat-Font-Size: 15.5px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+font-size: var(--Chat-Font-Size)!important;
+}
+
+.baseShapeRound-3epLEv {
+    border-radius: 0px;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: #d4e8fa;
+}
+
+.content-1gYQeQ {
+    border-radius: 0px;
+    border-style: solid;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: #d4e8fa;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b3c4e6;
+}
